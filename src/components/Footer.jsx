@@ -10,6 +10,7 @@ const socialLinks = [
 ];
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="w-screen bg-violet-500 py-4 text-white">
       <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row">
@@ -23,7 +24,7 @@ const Footer = () => {
           >
             Semper
           </a>{" "}
-          2024. All rights reserved
+          {currentYear}. All rights reserved
         </p>
         <div className="flex justify-center gap-4 md:justify-start">
           {socialLinks.map((link, index) => (
