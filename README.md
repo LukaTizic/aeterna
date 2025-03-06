@@ -17,9 +17,6 @@
 - ⚡ **Vite**: Blazing-fast development and build tool for modern web apps.  
 
 <hr>
-
-
-
 ## 🧩 **How to Run Locally**
 
 1. Clone the repository:
